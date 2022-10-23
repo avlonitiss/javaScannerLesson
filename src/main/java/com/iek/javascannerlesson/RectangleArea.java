@@ -25,17 +25,20 @@ public class RectangleArea
       int width;     // To hold rectangle's width.
       int area;      // To hold rectangle's area
 
-      // Create a Scanner object to read input.
+
+      
+
+// Create a Scanner object to read input.
       Scanner console = new Scanner(System.in);
 
       // Get length from the user.
-      System.out.print("Enter length ");
+      System.out.println("Enter length ");
       length= console.nextInt();
-
+        System.out.println("you entered as length: "+(length));
       // Get width from the user.
-      System.out.print("Enter width ");
+      System.out.println("Enter width ");
       width = console.nextInt();
-
+              System.out.println("you entered as width: "+(width));
       // Calculate area.
       area = length * width;
 
